@@ -35,4 +35,11 @@ function adicionarGasto(){
     // LIMPA OS CAMPOS PARA UMA NOVA DESPESA
     document.getElementById("descricao").value = "";
     document.getElementById("valor").value = "";
+
+    
+}
+ function LimparGasto() {
+    
+    document.getElementById("descricao").value = "";
+    document.getElementById("valor").value = "";
 }
